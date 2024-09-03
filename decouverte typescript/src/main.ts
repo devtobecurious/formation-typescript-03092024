@@ -1,12 +1,6 @@
-class Character {
-    // #name = 'Frodo'
-    private  name = 'Frodo'
-
-    move() {
-        // console.log(this.#name)
-        console.log(this.name)
-    }
-}
+//import {Character} from './character'
+import Character from './character'
+// import {Vec} from './character'
 
 const char = new Character()
 // char.
