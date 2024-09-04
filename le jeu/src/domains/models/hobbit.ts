@@ -1,4 +1,5 @@
 import Character from "./character";
+import { Fighter } from "./fighter";
 
 export class Hobbit extends Character {
     // private lifePoint: number
@@ -16,9 +17,9 @@ export class Hobbit extends Character {
         throw new Error("Method not implemented.")
     }
     
-    attack(): void {
-        super.attack()
-        console.info('et je saute')
+    attack(fighter: Fighter): void {
+        // super.attack(fighter)
+        fighter.receive(Math.floor(this.force / 10))
     }
 
     
