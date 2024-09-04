@@ -1,0 +1,23 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "preoptic": "echo 'gabriel'",
+    "optic": "echo 'optic 2000'",
+    "prejohny": "npm run optic",
+    "johny": "echo 'ah que coucou'",
+    "postjohny": "echo 'oh yeah'",
+
+    "prestart": "tsc",
+    "start": "npm run dev", 
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  }
+}

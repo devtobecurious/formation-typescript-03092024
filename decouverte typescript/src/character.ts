@@ -3,7 +3,7 @@ import {Move} from './move'
 
 export default class Character implements Move {
     // #name = 'Frodo'
-    private  name = 'Frodo'
+    name = 'Frodo'
     private position = new Vector2D(10, 10)
 
     // move() {
