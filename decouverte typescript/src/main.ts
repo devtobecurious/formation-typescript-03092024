@@ -1,4 +1,5 @@
 //import {Character} from './character'
+import { Path } from 'd3'
 import Character from './character'
 import { Move } from './move'
 import Vector2D from './vector-2d'
@@ -56,3 +57,8 @@ function useNames(name: Names) {
     console.info(name)
 }
 const name: Names = Names.Sam
+
+
+// const path: Path = {
+    
+// }
